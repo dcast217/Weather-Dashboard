@@ -1,0 +1,73 @@
+/* Custom CSS for Weather Page */
+
+/* Center align the weather page */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Style the weather card */
+  .card {
+    width: 400px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  /* Style the weather details */
+  .weather-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .weather-icon {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .weather-description {
+    font-weight: bold;
+  }
+  
+  .weather-temperature {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .weather-temperature span {
+    font-size: 14px;
+    font-weight: normal;
+  }
+  
+  .weather-forecast {
+    margin-top: 20px;
+  }
+  
+  .weather-forecast-item {
+    margin-bottom: 10px;
+  }
+  
+  .weather-forecast-item .day {
+    font-weight: bold;
+  }
+  
+  .weather-forecast-item .temperature {
+    font-weight: bold;
+  }
+  
+  .weather-forecast-item .temperature span {
+    font-weight: normal;
+  }
